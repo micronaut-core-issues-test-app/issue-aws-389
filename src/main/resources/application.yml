@@ -1,3 +1,8 @@
 micronaut:
   application:
     name: issueAws389
+  router:
+    versioning:
+      enabled: true
+      header:
+        enabled: true
